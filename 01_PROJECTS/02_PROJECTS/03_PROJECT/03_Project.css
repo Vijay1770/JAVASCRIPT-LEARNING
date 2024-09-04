@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGonmpwrwYJ0yMYwwSZUzkH6RG_1RxxfGVvPJlduL4Meqozne6WRIrutKEb_NQ-2nKKos&usqp=CAU");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navbar {
+    height: 45px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+
+}
+
+buttons {
+    width: 80px;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+buttons:hover {
+    color: chocolate;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+a {
+
+    height: 25px;
+    /* background-color: rgba(0, 0, 0, 0.479); */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#searchbar {
+    height: 30px;
+    width: 300px;
+    border-radius: 7px;
+}
+#text
+{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15%;
+}
+#clock
+{
+    width: 200px;
+    height: 50px;
+    margin-left: 44%;
+    margin-top: 2%;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
